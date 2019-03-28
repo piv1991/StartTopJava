@@ -1,24 +1,30 @@
 public class ConditionalStatement { 
     public static void main(String[] args) {
-int yourAge = 27
-double yourHeight = 1.83
-String yourName = "Илья"
-boolean
 
+
+String yourName = "Илья";
+
+
+int yourAge = 27;
 if (yourAge > 20) {
     System.out.println ("пора становиться серьёзнее");
 }
-if (youAreMale) {
+String gender = man;
+boolean isGender = (gender == man)
+if (isGender == true) {
     System.out.println ("готовься к трудностям");
 }
-if (youAreFemale) {
+if (isGender == false) {
     System.out.println ("третий размер открывает тысячи дорог");
 }
+
+double yourHeight = 1.83
 if (yourHeight < 1.80) 
     System.out.println ("волосатый, мускулистый");
 } else {
     System.out.println ("Да, у тебя же папа пианист...");
 }
+
 if (yourNameStartsWithTheLetterМ == ‘М’) {
     System.out.println ("оченькрасивое имя");
 } else if (yourNameStartsWithTheLetterИ == ‘И’) {
