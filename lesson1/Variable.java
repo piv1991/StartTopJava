@@ -1,13 +1,13 @@
 public class Variable { 
     public static void main(String[] args) {
-        byte TypeSystem = 64;
-        short Hdd = 682;
-        int GeForce = 650;
-        long Windows = 10;
-        float Ram = 8.00f;
-        double Cpu = 2.40;
-        char IntelCoreI = 7;
-        boolean Laptop = true;
-        System.out.println (TypeSystem + " " + Hdd + " " + GeForce + " " + Windows + " " + Ram + " " + Cpu + " " + IntelCoreI );
+        byte typeSystem = 64;
+        short hdd = 682;
+        int geForce = 650;
+        long windows = 10;
+        float ram = 8.00f;
+        double cpu = 2.40;
+        char intelCoreI = 7;
+        boolean laptop = true;
+        System.out.println (typeSystem + " " + hdd + " " + geForce + " " + windows + " " + ram + " " + cpu + " " + intelCoreI);
     }
 }
