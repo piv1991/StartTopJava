@@ -1,35 +1,37 @@
 public class ConditionalStatement { 
     public static void main(String[] args) {
 
-
-String yourName = "Илья";
-
-
 int yourAge = 27;
 if (yourAge > 20) {
-    System.out.println ("пора становиться серьёзнее");
+    System.out.println ("it's time to get serious");
 }
-String gender = man;
-boolean isGender = (gender == man);
-  if (isGender == true) {
-    System.out.println ("готовься к трудностям");
+
+
+boolean isMan = true;
+  if (isMan) {
+    System.out.println ("Man");
 }
-  if (isGender == false) {
-    System.out.println ("третий размер открывает тысячи дорог");
-}
+  if (!isMan) {
+    System.out.println ("Woman");
+  }
+
 
 double yourHeight = 1.83;
   if (yourHeight < 1.80) {
-    System.out.println ("волосатый, мускулистый");
+    System.out.println ("high");
 } else {
-    System.out.println ("Да, у тебя же папа пианист...");
+    System.out.println ("low");
 }
 
-if (yourNameStartsWithTheLetterМ == ‘М’) {
-    System.out.println ("очень красивое имя");
-} else if (yourNameStartsWithTheLetterИ == ‘И’) {
-    System.out.println ("это лучшее имя на Земле");
+
+char yourNameStartsWithTheLetterM = 'M';
+char yourNameStartsWithTheLetterA = 'A';
+  if (yourNameStartsWithTheLetterM == 'M') {
+    System.out.println ("beautiful name");
+} else if (yourNameStartsWithTheLetterA == 'A') {
+    System.out.println ("very beautiful name");
 } else {
-    System.out.println ("приятно познакомиться");
-          }
+    System.out.println ("beautiful name");
+  }
+}
 }
